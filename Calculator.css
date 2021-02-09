@@ -1,0 +1,92 @@
+ᗧ·····🍒······ᗣ
+#calculator {
+    display: flex;
+    width: 350px;
+    height: 580px;
+    justify-content: fixed;
+    margin-top: 50px;
+    border: 0px solid rgb(0, 128, 17);
+    border-radius: 100px;
+    
+   }
+   body {
+    background-image: url("shells.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 60px;
+    
+   }
+   #content {
+    display: flex;
+    flex-direction: column;
+    /*
+          .-'~~~-.
+                     .'o  oOOOo`.
+                    :~~~-.oOo   o`.
+                     `. \ ~-.  oOOo.
+                       `.; / ~.  OO:
+                       .'  ;-- `.o.'
+                      ,'  ; ~~--'~
+                      ;  ;
+_______\|/__________\\;_\\//___\|/________*/
+   }
+   .button {
+    display: flex;
+    justify-content: space-around;
+    width: 20px;
+    height: 10px;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 15%;
+    border: 2px solid;
+    border-color: rgba(255, 255, 255, 0.596);
+    background-color: rgba(192, 192, 192, 0.849);
+    grid-gap: 15px;/*spaceing buttons*/
+   }
+   .row {
+    display: flex;
+   }
+   #screen {
+    border: 5px solid;
+    margin: auto;
+    width: 250px;
+    height: 60px;
+    margin-top: 25%;
+    margin-bottom: 20%;
+   }
+   .button:hover {
+    cursor: default;
+    color: rgb(71, 249, 255);
+   }
+   #zero {
+    flex-grow: 2;
+   }
+ 
+/*  
+================================================.
+     .-.   .-.     .--.                         |
+    | OO| | OO|   / _.-' .-.   .-.  .-.   .''.  |
+    |   | |   |   \  '-. '-'   '-'  '-'   '..'  |
+    '^^^' '^^^'    '--'                         |
+===============.  .-.  .================.  .-.  |
+               | |   | |                |  '-'  |
+               | |   | |                |       |
+               | ':-:' |                |  .-.  |
+Pᗣᗧ•••MᗣN     |  '-'  |                |  '-'  |
+==============='       '================'       |*/
+.clock {
+  font-size: 1em;
+}
+div.clock {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  /* border: 3px solid #73AD21; */
+}
+
